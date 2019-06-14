@@ -28,5 +28,10 @@ Contract.make {
         headers {
             contentType(applicationJson())
         }
+        body''' \
+{ 
+    "result": -99
+}
+'''
     }
 }

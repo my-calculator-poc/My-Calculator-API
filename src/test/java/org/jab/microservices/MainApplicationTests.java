@@ -1,4 +1,4 @@
-package org.jab.microservices.myCalculator;
+package org.jab.microservices;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
