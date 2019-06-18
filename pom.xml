@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>org.jab.microservices</groupId>
-	<artifactId>myCalculator</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>myCalculator</name>
+	<artifactId>my-calculator</artifactId>
+	<version>0.1.0-SNAPSHOT</version>
+	<name>My-Calculator-API</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
