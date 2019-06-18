@@ -76,12 +76,20 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 
+			<!--
+			https://cloud.spring.io/spring-cloud-static/spring-cloud-contract/2.1.1.RELEASE/spring-cloud-contract-maven-plugin/generateTests-mojo.html#skip
+			-->
 			<plugin>
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-contract-maven-plugin</artifactId>
 				<extensions>true</extensions>
 				<configuration>
 					<packageWithBaseClasses>org.jab.microservices.scc.verifier</packageWithBaseClasses>
+					<!-- <testMode>MOCKMVC</testMode>
+					<testFramework>JUNIT</testFramework>
+					<skip>true</skip>
+					<skipTests>true</skipTests>
+					-->
 				</configuration>
 			</plugin>
 		</plugins>

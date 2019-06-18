@@ -1,8 +1,5 @@
 package org.jab.microservices;
 
-import org.springframework.stereotype.Service;
-
-@Service
 public class SumServiceImpl implements SumService {
 
     @Override
